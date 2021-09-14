@@ -1,0 +1,21 @@
+{
+    "name": "todo",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm-run-all --parallel server client",
+        "server": "node server.js",
+        "client": "node client.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@grpc/proto-loader": "^0.6.5",
+        "g": "^2.0.1",
+        "google-protobuf": "^3.18.0-rc.2",
+        "grpc": "^1.24.11",
+        "npm-run-all": "^4.1.5"
+    }
+}

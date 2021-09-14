@@ -1,0 +1,26 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "Testing GRPC",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stdioh321/grpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stdioh321/grpc/issues"
+  },
+  "homepage": "https://github.com/stdioh321/grpc#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7",
+    "@grpc/proto-loader": "^0.6.4",
+    "google-protobuf": "^3.18.0-rc.2",
+    "grpc": "^1.24.11"
+  }
+}
