@@ -27,7 +27,6 @@ function readTodos(call, callback) {
 }
 
 function readTodosStream(call, callback) {
-    console.log(call);
     todos.forEach(it => call.write(it));
     call.end();
 }
